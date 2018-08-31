@@ -1,0 +1,34 @@
+{
+  "name": "FlashCard",
+  "version": "1.0.0",
+  "description": "A flash card app that support creating flash card sets and manage them with categories and tree-structure sub folders.<br/> It supports login, registeration, and administration.<br/> Users can create their own flash card sets, as well as rating the flash cards. High rating and hitting card sets will be examined by administrator to become public data sets for every users.<br/> VIP users enjoyes more features than normal users by creating their own categories and having access to certain card sets. A protected card set can be viewed by sending points to the set owner or becoming a VIP user.  <br/> Let make flash cards and study for better future!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node Server/server.js",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiang718/FlashCard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiang718/FlashCard/issues"
+  },
+  "homepage": "https://github.com/jiang718/FlashCard#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.3",
+    "express": "^4.16.3",
+    "isomorphic-unfetch": "^2.1.1",
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.12",
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
